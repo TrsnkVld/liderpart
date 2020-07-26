@@ -1,0 +1,1752 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточка товара</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick-1.8.1/slick/slick-theme.css">
+    <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <script src="https://vk.com/js/api/openapi.js?160" type="text/javascript"></script>
+    <script type="text/javascript">
+        VK.init({apiId: 6993311, onlyWidgets: true});
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="top-header-wrap">
+            <div class="container top-header">
+                <nav class="main-nav">
+
+                    <div class="mobile-menu-btn">
+                        <img src="assets/img/burger-icon-blue.png" alt="menu-icon" />
+                        <span class="menu-title">Меню</span>
+                    </div>
+
+                    <div class="mobile-menu-wrap">
+
+                        <div class="search-mobile">
+                            <input type="search" class="custom-input" placeholder="Поиск по 1323 товарам" />
+                        </div>
+
+                        <div class="contact-item-wrapper phone">
+                            <div class="contact-icon"></div>
+                            <div class="text">
+                                <div class="phone-number">
+                                    <a href="tel:+7 (911) 265-16-00">+7 (911) 265-16-00</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mobile-nav">
+                            <ul>
+                                <li class="menu-wrap">
+                                    Меню
+                                </li>
+                                <li class="catalog-wrap">
+                                    Каталог
+                                </li>
+                            </ul>
+                        </div>
+
+                        <ul class="mobile-menu slideup">
+                            <li class="menu-item ">
+                                <a href="index.html">Главная</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="about_company.html">О компании</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Услуги</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="guarantees.html">Гарантии</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Акции</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="shipping_and_payment.html">Оплата и Доставка</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="news.html">Новости</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="contacts.html">Контакты</a>
+                            </li>
+                        </ul>
+
+                        <ul class="mobile-catalog">
+                            <li class="catalog-item">
+                                <a href="catalog.html">Сканеры для грузовиков</a>
+                            </li>
+                            <li class="catalog-item">
+                                <a href="catalog.html">Сканеры для спецтехники</a>
+                            </li>
+                            <li class="catalog-item">
+                                <a href="catalog.html">Кабели для диагностики</a>
+                            </li>
+                            <li class="catalog-item">
+                                <a href="catalog.html">Программы для автодиагностики</a>
+                            </li>
+                            <li class="catalog-item">
+                                <a href="catalog.html">Эмуляторы Adblue</a>
+                            </li>
+                            <li class="catalog-item">
+                                <a href="catalog.html">Программы для тахографов</a>
+                            </li>
+                            <li class="catalog-item">
+                                <a href="catalog.html">Ноутбуки для диагностики</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="logo-wrapper">
+                        <img class="logo-img" src="assets/img/logo.png">
+                        <a href="index.html"></a>
+                    </div>
+
+                    <ul class="nav-menu">
+                        <li class="menu-item ">
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="about_company.html">О компании</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Услуги</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="guarantees.html">Гарантии</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Акции</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="shipping_and_payment.html">Оплата и Доставка</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="news.html">Новости</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+
+                    <ul class="lang-switch">
+                        <li class="lang-item active">
+                            <a href="#">Rus</a>
+                        </li>
+                        <li class="lang-item">
+                            <a href="#">Eng</a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+
+        <div class="mid-header-wrap">
+            <div class="container mid-header">
+                <div class="logo-wrapper">
+                    <img class="logo-img" src="assets/img/logo.png">
+                    <a href="index.html"></a>
+                </div>
+
+                <div class="contact-item-wrapper phone">
+                    <div class="contact-icon"></div>
+                    <div class="text">
+                        <div class="phone-number">
+                            <a href="tel:+7 (911) 265-16-00">+7 (911) 265-16-00</a>
+                        </div>
+                        <div class="request">
+                            <a href="javascript:void(0);" data-toggle="backcall-popup" class="modal-trigger">Заказать обратный звонок</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-item-wrapper address">
+                    <div class="contact-icon">
+                        <img src="assets/img/map.svg" />
+                    </div>
+                    <div class="text">
+                        <span>
+                            г. Санкт-Петербург, ул. Софийская 17, БЦ Формула, 4 этаж, офис 407.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-header-wrap">
+            <div class="container bottom-header">
+                <nav class="catalog-nav">
+                    <div id="catalog-header">
+                        <span>Каталог товаров</span>
+                        <img src="assets/img/burger-icon.png" alt="menu-icon" />
+                    </div>
+                    <ul id="catalog-menu" class="slideup">
+                        <li class="catalog-item">
+                            <a href="catalog.html">Сканеры для грузовиков</a>
+                        </li>
+                        <li class="catalog-item">
+                            <a href="catalog.html">Сканеры для спецтехники</a>
+                        </li>
+                        <li class="catalog-item">
+                            <a href="catalog.html">Кабели для диагностики</a>
+                        </li>
+                        <li class="catalog-item">
+                            <a href="catalog.html">Программы для автодиагностики</a>
+                        </li>
+                        <li class="catalog-item">
+                            <a href="catalog.html">Эмуляторы Adblue</a>
+                        </li>
+                        <li class="catalog-item">
+                            <a href="catalog.html">Программы для тахографов</a>
+                        </li>
+                        <li class="catalog-item">
+                            <a href="catalog.html">Ноутбуки для диагностики</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="search-wrap">
+                    <input class="inp-custom" type="search" placeholder="Поиск по 1356 товарам" />
+                    <button class="blue-btn"><span>Поиск товара</span><img src="assets/img/search.png"></button>
+                </div>
+
+                <div class="cart-wrap">
+
+                    <div class="cart-outer">
+                        <div class="icon cart">
+                            <span class="count">2</span>
+                        </div>
+
+                        <div class="cart-sum">
+                            <span>
+                                53 445 руб.
+                            </span>
+                        </div>
+                    </div>
+
+
+                    <div class="cart-content slideup">
+                        <div class="cart-title">
+                            <a href="#">Корзина</a>
+                            <div class="close-cart-content">
+                                <span>Закрыть</span>
+                                <img src="assets/img/close.png" alt="delete-item" />
+                            </div>
+                        </div>
+                        <div class="cart-items-wrap">
+                            <div class="cart-item">
+                                <div class="item-img">
+                                    <img src="assets/img/adapter1_1.png" alt="pagetitle" />
+                                </div>
+                                <div class="item-info">
+                                    <a href="#" class="item-name">N00170 MAN T200 - дилерский</a>
+                                    <span class="item-price">590 000 Р</span>
+                                </div>
+                                <div class="delete-item">
+                                    <img src="assets/img/close.png" alt="delete-item" />
+                                </div>
+                            </div>
+                            <div class="cart-item">
+                                <div class="item-img">
+                                    <img src="assets/img/adapter1_1.png" alt="pagetitle" />
+                                </div>
+                                <div class="item-info">
+                                    <a href="#" class="item-name">N00170 MAN T200 - дилерский</a>
+                                    <span class="item-price">590 000 Р</span>
+                                </div>
+                                <div class="delete-item">
+                                    <img src="assets/img/close.png" alt="delete-item" />
+                                </div>
+                            </div>
+                            <div class="cart-item">
+                                <div class="item-img">
+                                    <img src="assets/img/adapter1_1.png" alt="pagetitle" />
+                                </div>
+                                <div class="item-info">
+                                    <a href="#" class="item-name">N00170 MAN T200 - дилерский</a>
+                                    <span class="item-price">590 000 Р</span>
+                                </div>
+                                <div class="delete-item">
+                                    <img src="assets/img/close.png" alt="delete-item" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-cost">
+                            Итого: <span>590 000 Р</span>
+                        </div>
+                        <div class="checkout-btn">
+                            <a href="#">Оформить заказ</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="breadcrumbs">
+            <div class="container">
+                <div class="bread-wrap">
+                    <ul class="bread-list">
+                        <li>
+                            <a href="#">Главная</a>
+                        </li>
+                        <li>
+                            <a href="#">Каталог</a>
+                        </li>
+                        <li>
+                            <a href="#">Сканер для грузовиков</a>
+                        </li>
+                        <li>
+                            <a href="#">Автосканер DPA 5 CNH EST</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="single-product-section">
+        <div class="container">
+            <div class="single-product-wrap">
+                <div class="product-header">
+                    <div class="product-images">
+                        <div class="preview">
+                            <div class="images-carousel">
+                                <div class="img-container">
+                                    <img src="assets/img/adapter1.png" />
+                                </div>
+                                <div class="img-container">
+                                    <img src="assets/img/adapter2.png" />
+                                </div>
+                                <div class="img-container">
+                                    <img src="assets/img/adapter3.png" />
+                                </div>
+                                <div class="img-container">
+                                    <img src="assets/img/adapter1.png" />
+                                </div>
+                                <div class="img-container">
+                                    <img src="assets/img/adapter2.png" />
+                                </div>
+                                <div class="img-container">
+                                    <img src="assets/img/adapter3.png" />
+                                </div>
+                            </div>
+                            <div class="carousel-nav">
+                                <div class="down">
+                                    <img src="assets/img/arrow-down.png" />
+                                </div>
+                                <div class="up">
+                                    <img src="assets/img/arrow-up.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-img">
+                            <div class="tile-badge">
+                                <span>Новинка</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-header">
+                        <div class="section-title">
+                            <h1>Автосканер DPA 5 CNH EST</h1>
+                        </div>
+                        <div class="stock">
+                            <span>В наличии</span>
+                        </div>
+
+                        <div class="product-description">
+                            <p>
+                                Компания Liderpart основана в Санкт-Петербурге в 2016 году. Основным направлением деятельности компании является поставка дилерского диагностического оборудования
+                            </p>
+                        </div>
+                        <div class="right-bottom">
+                            <div class="yandex-n-prices">
+
+                                <div class="best-price">
+                                    <i class="icon yandex"></i>
+                                    <span>Лучшая цена</span>
+                                </div>
+
+                                <div class="prices">
+
+                                    <div class="product-price">
+                                        <span class="old-price">786 000 Р</span>
+                                        <span class="current-price">590 000 Р</span>
+                                    </div>
+
+                                    <div class="saving">
+                                        <span>Ваша экономия: <b>136 000 Р</b></span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="product-btns">
+                                <div class="quantity">
+                                    <input type="number" value="1" class="quantity-inp" />
+                                    <div class="spinners">
+                                        <div class="more">
+                                            <img src="assets/img/arrow-down2.png" alt="arrow_down">
+                                        </div>
+                                        <div class="less">
+                                            <img src="assets/img/arrow-down2.png" alt="arrow_down">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="equipment-choice">
+                                    <div class="title">
+                                        <div class="equipment-item">
+                                            <span>Базовая комплектация</span>
+                                        </div>
+                                        <div class="icon arrow">
+                                            <img src="assets/img/arrow-down2.png" alt="arrow_down">
+                                        </div>
+                                    </div>
+                                    <div class="equipment-content">
+                                        <div class="equipment-item">
+                                            <span>Стандартный комплект</span><span class="plus">+ 10 000 Р</span>
+                                        </div>
+                                        <div class="equipment-item">
+                                            <span>Расширенный комплект</span><span class="plus">+ 25 000 Р</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="add-to-cart">
+                                    <a href="#">Добавить в корзину</a>
+                                </div>
+                                <div class="one-click-buy">
+                                    <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Заказать в один клик</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom-header">
+                    <div class="average-blocks">
+                        <div class="average-block">
+                            <div class="block-title">
+                                <span>
+                                    Гарантия <b>24 месяца</b> на все диагностические адаптеры
+                                </span>
+                            </div>
+                            <div class="block-btn">
+                                <a href="guarantees.html">Узнать подробнее</a>
+                            </div>
+                            <div class="block-back-img adapter">
+                                <img alt="image" class="" src="assets/img/adapter1.png">
+                            </div>
+                        </div>
+
+                        <div class="average-block">
+                            <div class="block-title">
+                                <span>
+                                    <b>Бесплатная доставка по России</b><br>при заказе от 30 000руб.
+                                </span>
+                            </div>
+                            <div class="block-btn">
+                                <a href="shipping_and_payment.html">Узнать подробнее</a>
+                            </div>
+                            <div class="block-back-img car">
+                                <img alt="image" class="" src="assets/img/car.png">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact">
+                        <div class="after-bottom social">
+
+                            <script type="text/javascript">
+                                (function() {
+                                    if (window.pluso)
+                                        if (typeof window.pluso.start == "function") return;
+                                    if (window.ifpluso == undefined) {
+                                        window.ifpluso = 1;
+                                        var d = document,
+                                            s = d.createElement('script'),
+                                            g = 'getElementsByTagName';
+                                        s.type = 'text/javascript';
+                                        s.charset = 'UTF-8';
+                                        s.async = true;
+                                        s.src = ('https:' == window.location.protocol ? 'https' : 'http') + '://share.pluso.ru/pluso-like.js';
+                                        var h = d[g]('body')[0];
+                                        h.appendChild(s);
+                                    }
+                                })();
+
+                            </script>
+                            <div class="pluso" data-background="transparent" data-options="big,square,line,horizontal,counter,theme=04" data-services="vkontakte,odnoklassniki,facebook,email,print"></div>
+
+                        </div>
+
+                        <div class="after-bottom demonstration">
+                            <div class="demo-btn">
+                                <a href="javascript:void(0);" data-toggle="demo-popup" class="modal-trigger">Заказать демонстрацию</a>
+                            </div>
+                            <span>
+                                Для данного прибора возможна демонстрация с выездом инженера
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-info">
+                    <div class="info-header">
+                        <ul class="info-nav">
+                            <li>
+                                <a href="javascript:void(0);" data-toggle="product-overview">
+                                    <span>Обзор</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="javascript:void(0);" data-toggle="product-description">
+                                    <span>Описание</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" data-toggle="product-specifications">
+                                    <span>Характеристики</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" data-toggle="product-equipment">
+                                    <span>Комплектация</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" data-toggle="product-documentation">
+                                    <span>Документация</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" data-toggle="product-video">
+                                    <span>Видео</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" data-toggle="product-reviews">
+                                    <span>Отзывы</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="product-overview" class="info-wrap">
+                        <p>
+                            overview
+                        </p>
+                    </div>
+
+                    <div id="product-description" class="info-wrap">
+                        <p>
+                            VOLVO VOCOM 88890300 - новый оригинальный автосканер для дилерской диагностики грузовых автомобилей и спецтехники Volvo, судовых и промышленных двигателей Volvo Penta, а также тягачей Mack, Renault и UD c 1994 по настоящее время. VOLVO VOCOM 88890300 - новый оригинальный автосканер для дилерской диагностики грузовых автомобилей и спецтехники Volvo, судовых и промышленных двигателей
+                            Volvo Penta, а также тягачей Mack, Renault и UD c 1994 по настоящее время.
+                        </p>
+                    </div>
+
+                    <div id="product-specifications" class="info-wrap">
+
+                        <p>
+                            VOLVO VOCOM 88890300 - новый оригинальный автосканер для дилерской диагностики грузовых автомобилей и спецтехники Volvo, судовых и промышленных двигателей Volvo Penta, а также тягачей Mack, Renault и UD c 1994 по настоящее время. VOLVO VOCOM 88890300 - новый оригинальный автосканер для дилерской диагностики грузовых автомобилей и спецтехники Volvo, судовых и промышленных двигателей
+                            Volvo Penta, а также тягачей Mack, Renault и UD c 1994 по настоящее время.
+                        </p>
+
+                        <p>
+                            VOLVO VOCOM 88890300 - новый оригинальный автосканер для дилерской диагностики грузовых автомобилей и спецтехники Volvo, судовых и промышленных двигателей Volvo Penta, а также тягачей Mack, Renault и UD c 1994 по настоящее время. VOLVO VOCOM 88890300 - новый оригинальный автосканер для дилерской диагностики грузовых автомобилей и спецтехники Volvo, судовых и промышленных двигателей
+                            Volvo Penta, а также тягачей Mack, Renault и UD c 1994 по настоящее время.
+                        </p>
+
+                    </div>
+
+                    <div id="product-equipment" class="info-wrap">
+                        <div class="basic-equipment">
+                            <div class="equipment-title">
+                                <span>Базовый комплект</span>
+                            </div>
+                            <div class="equipment-wrap">
+                                <div class="small-block">
+                                    <a href="#"></a>
+                                    <div class="block-back-img">
+                                        <img alt="image" class="" src="assets/img/big-truck-small.png" />
+                                    </div>
+                                    <div class="block-title">
+                                        <span>
+                                            Сканер
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="small-block">
+                                    <a href="#"></a>
+                                    <div class="block-back-img">
+                                        <img alt="image" class="" src="assets/img/big-truck-small.png" />
+                                    </div>
+                                    <div class="block-title">
+                                        <span>
+                                            Компьютер
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="standart-equipment">
+                            <div class="equipment-title">
+                                <span>Стандартный комплект - <b>Экономия 5 000 Р</b></span>
+                            </div>
+                            <div class="equipment-wrap">
+                                <div class="small-block">
+                                    <a href="#"></a>
+                                    <div class="block-back-img">
+                                        <img alt="image" class="" src="assets/img/big-truck-small.png" />
+                                    </div>
+                                    <div class="block-title">
+                                        <span>
+                                            Сканер
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="small-block">
+                                    <a href="#"></a>
+                                    <div class="block-back-img">
+                                        <img alt="image" class="" src="assets/img/big-truck-small.png" />
+                                    </div>
+                                    <div class="block-title">
+                                        <span>
+                                            Компьютер
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="small-block">
+                                    <a href="#"></a>
+                                    <div class="block-back-img">
+                                        <img alt="image" class="" src="assets/img/big-truck-small.png" />
+                                    </div>
+                                    <div class="block-title">
+                                        <span>
+                                            Сумка
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="extended-equipment">
+                            <div class="equipment-title">
+                                <span>Расширенная комплектация (Полный комплект) - <b>Экономия 10 000 Р</b></span>
+                            </div>
+                            <div class="equipment-wrap">
+                                <div class="small-block">
+                                    <a href="#"></a>
+                                    <div class="block-back-img">
+                                        <img alt="image" class="" src="assets/img/big-truck-small.png" />
+                                    </div>
+                                    <div class="block-title">
+                                        <span>
+                                            Сканер
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="small-block">
+                                    <a href="#"></a>
+                                    <div class="block-back-img">
+                                        <img alt="image" class="" src="assets/img/big-truck-small.png" />
+                                    </div>
+                                    <div class="block-title">
+                                        <span>
+                                            Компьютер
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="small-block">
+                                    <a href="#"></a>
+                                    <div class="block-back-img">
+                                        <img alt="image" class="" src="assets/img/big-truck-small.png" />
+                                    </div>
+                                    <div class="block-title">
+                                        <span>
+                                            Сумка
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="small-block">
+                                    <a href="#"></a>
+                                    <div class="block-back-img">
+                                        <img alt="image" class="" src="assets/img/big-truck-small.png" />
+                                    </div>
+                                    <div class="block-title">
+                                        <span>
+                                            Жесткий диск
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="product-documentation" class="info-wrap">
+                        <div class="documentation-wrap">
+                            <div class="single-documentation">
+                                <div class="icon">
+                                    <img src="assets/img/doc.png" alt="doc_img" />
+                                </div>
+                                <div class="title">
+                                    <a href="http://www.africau.edu/images/default/sample.pdf" target="_blank">
+                                        Инструкция по применению на русском языке
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="single-documentation">
+                                <div class="icon">
+                                    <img src="assets/img/doc.png" alt="doc_img" />
+                                </div>
+                                <div class="title">
+                                    <a href="http://www.africau.edu/images/default/sample.pdf" target="_blank">
+                                        Инструкция по применению на русском языке
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="single-documentation">
+                                <div class="icon">
+                                    <img src="assets/img/doc.png" alt="doc_img" />
+                                </div>
+                                <div class="title">
+                                    <a href="http://www.africau.edu/images/default/sample.pdf" target="_blank">
+                                        Инструкция по применению на русском языке
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="single-documentation">
+                                <div class="icon">
+                                    <img src="assets/img/doc.png" alt="doc_img" />
+                                </div>
+                                <div class="title">
+                                    <a href="http://www.africau.edu/images/default/sample.pdf" target="_blank">
+                                        Инструкция по применению на русском языке
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="product-video" class="info-wrap">
+                        <div class="videos-wrap">
+                            
+                            <div class="single-video">
+                                <video class="video-js" poster='assets/img/qwe.jpg' data-setup='{"controls": true, "autoplay": false, "preload": "auto"}'>
+                                    <source src="assets/video/oceans.mp4" type="video/mp4">
+                                </video>
+                                <div class="video-title">
+                                    <span>Инструкция по применению на русском языке</span>
+                                </div>
+                            </div>
+
+                            <div class="single-video">
+                                <video class="video-js" poster='assets/img/qwe.jpg' data-setup='{"controls": true, "autoplay": false, "preload": "auto"}'>
+                                    <source src="assets/video/oceans.mp4" type="video/mp4">
+                                </video>
+                                <div class="video-title">
+                                    <span>Инструкция по применению на русском языке</span>
+                                </div>
+                            </div>
+
+                            <div class="single-video">
+                                <video class="video-js" poster='assets/img/qwe.jpg' data-setup='{"controls": true, "autoplay": false, "preload": "auto"}'>
+                                    <source src="assets/video/oceans.mp4" type="video/mp4">
+                                </video>
+                                <div class="video-title">
+                                    <span>Инструкция по применению на русском языке</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div id="product-reviews" class="info-wrap">
+                        <div id="vk_comments"></div>
+                        <script type="text/javascript">
+                            VK.Widgets.Comments('vk_comments');
+                        </script>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="another-products-section">
+        <div class="container">
+            <nav class="products-nav">
+                <ul class="products-menu">
+                    <li class="menu-item active">
+                        <a href="javascript:void(0);" data-toggle="relatedproducts">
+                            <span>Сопутсвующие товары</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="javascript:void(0);" data-toggle="analogs">
+                            <span>Аналоги</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div id="relatedproducts" class="products-row carousel">
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="analogs" class="products-row carousel">
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-section">
+        <div class="container">
+            <div class="products-title">
+                <span>Вы недавно смотрели</span>
+            </div>
+            <div id="new" class="products-row carousel">
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-single">
+                    <div class="product-header">
+                        <div class="tile-badge">
+                            <span>Новинка</span>
+                        </div>
+                        <div class="best-price">
+                            <i class="icon yandex"></i>
+                            <span>Лучшая цена</span>
+                        </div>
+                        <div class="status">
+                            <span>В наличии</span>
+                        </div>
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/img/adapter1.png" alt="image" />
+                    </div>
+                    <div class="product-info">
+                        <div class="product-title">
+                            <a href="#">
+                                Ноутбук Panasonic Toughbook CF-19 MK2
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            <span class="old-price">786 000 Р</span>
+                            <span class="current-price">590 000 Р</span>
+                        </div>
+                        <div class="buy-btn">
+                            <a href="javascript:void(0);" data-toggle="сheckout-popup" class="modal-trigger">Купить</a>
+                        </div>
+                        <div class="saving">
+                            <span>Ваша экономия: <b>136 000 Р</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-top-wrap">
+            <div class="container footer-top">
+                <div class="logo-wrapper">
+                    <img class="logo-img" src="assets/img/logo-white.png">
+                </div>
+                <div class="contacts">
+                    <div class="contact-item-wrapper phone">
+                        <div class="contact-icon"></div>
+                        <div class="text">
+                            <div class="phone-number">
+                                <a href="tel:+7 (911) 265-16-00">+7 (911) 265-16-00</a>
+                            </div>
+                            <div class="request">
+                                <a href="javascript:void(0);" data-toggle="backcall-popup" class="modal-trigger">Заказать обратный звонок</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-item-wrapper address">
+                        <div class="contact-icon">
+                            <img src="assets/img/map.svg" />
+                        </div>
+                        <div class="text">
+                            <span>
+                                г. Санкт-Петербург, ул. Софийская 17, БЦ Формула, 4 этаж, офис 407.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-mid-wrap">
+            <div class="container footer-mid">
+                <nav class="footer-nav">
+                    <ul class="footer-menu">
+                        <li class="menu-item active">
+                            <a href="#">Главная</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">О компании</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Услуги</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Гарантии</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Акции</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Оплата и Доставка</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Новости</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="footer-right">
+                    <div class="social-icons">
+                        <div class="social-left">
+                            <a href="#" class="icon telegram"><span>telegram</span></a>
+                            <a href="#" class="icon viber"><span>viber</span></a>
+                            <a href="#" class="icon whatsapp"><span>WhatsApp</span></a>
+                            <a href="#" class="icon skype"><span>skype</span></a>
+                        </div>
+                        <div class="social-right">
+                            <a href="#" class="icon vk"><span>vk</span></a>
+                            <a href="#" class="icon fb"><span>facebook</span></a>
+                            <a href="#" class="icon instagram"><span>instagram</span></a>
+                        </div>
+                    </div>
+                    <div class="search-wrap">
+                        <input class="inp-custom" type="search" placeholder="Поиск по 1356 товарам" />
+                        <button class="blue-btn">Поиск товара</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-wrap">
+            <div class="container footer-bottom">
+                <div class="info">
+                    <span>© 2007-2019. Все права защищены</span>
+                </div>
+                <ul class="lang-switch">
+                    <li class="lang-item active">
+                        <a href="#">Rus</a>
+                    </li>
+                    <li class="lang-item">
+                        <a href="#">Eng</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL STUFF-->
+    <div class="modal сheckout-popup">
+        <form action="" method="" id="request-send-form">
+            <div class="form-title">
+                <span>
+                    Оформить заказ
+                </span>
+            </div>
+            <div class="form-description">
+                <span>
+                    Заполните форму и наш специалист приедет к вам для демонстрации
+                    оборудования. Действует в Санкт-Петербурге и Ленобласти
+                </span>
+            </div>
+            <div class="item-wrap">
+                <div class="item-img">
+                    <img src="assets/img/adapter1_1.png" alt="pagetitle">
+                </div>
+                <div class="item-info">
+                    <a href="#" class="item-name">N00170 MAN T200 - дилерский</a>
+                </div>
+            </div>
+            <div class="input-wrap">
+                <input type="text" class="name-inp custom-input" placeholder="Имя" />
+                <input type="text" class="phone-inp custom-input" placeholder="Телефон" />
+                <div class="checkbox-inp">
+                    <label class="checkbox-container">
+                        <input id="confirm-check" type="checkbox">
+                        Я ознакомлен и согласен с <a href="#">условиями публичной оферты</a>
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="send-request-btn big">
+                <a href="javascript:void(0);">Оставить заявку</a>
+            </div>
+        </form>
+        <div class="modal-close">
+            <img src="assets/img/close.png" alt="close-modal">
+        </div>
+    </div>
+
+    <div class="modal demo-popup">
+        <form action="" method="" id="request-send-form">
+            <div class="form-title">
+                <span>
+                    Оставьте заявку на демонстрацию нашего оборудования
+                </span>
+            </div>
+            <div class="form-description">
+                <span>
+                    Заполните форму и наш специалист приедет к вам для демонстрации
+                    оборудования. Действует в Санкт-Петербурге и Ленобласти
+                </span>
+            </div>
+            <div class="item-wrap">
+                <div class="item-img">
+                    <img src="assets/img/adapter1_1.png" alt="pagetitle">
+                </div>
+                <div class="item-info">
+                    <a href="#" class="item-name">N00170 MAN T200 - дилерский</a>
+                </div>
+            </div>
+            <div class="input-wrap">
+                <input type="text" class="name-inp custom-input" placeholder="Имя" />
+                <input type="text" class="phone-inp custom-input" placeholder="Телефон" />
+                <div class="checkbox-inp">
+                    <label class="checkbox-container">
+                        <input id="confirm-check" type="checkbox">
+                        Я ознакомлен и согласен с <a href="#">условиями публичной оферты</a>
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="send-request-btn big">
+                <a href="javascript:void(0);">Оставить заявку</a>
+            </div>
+        </form>
+        <div class="modal-close">
+            <img src="assets/img/close.png" alt="close-modal">
+        </div>
+    </div>
+
+    <div class="modal backcall-popup">
+        <form action="" method="" id="request-send-form">
+            <div class="form-title">
+                <span>
+                    Заказать обратный звонок
+                </span>
+            </div>
+            <div class="form-description">
+                <span>
+                    Заполните форму и наш специалист приедет к вам для демонстрации
+                    оборудования. Действует в Санкт-Петербурге и Ленобласти
+                </span>
+            </div>
+            <div class="input-wrap">
+                <input type="text" class="name-inp custom-input" placeholder="Имя" />
+                <input type="text" class="phone-inp custom-input" placeholder="Телефон" />
+                <div class="checkbox-inp">
+                    <label class="checkbox-container">
+                        <input id="confirm-check" type="checkbox">
+                        Я ознакомлен и согласен с <a href="#">условиями публичной оферты</a>
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="send-request-btn big">
+                <a href="javascript:void(0);">Оставить заявку</a>
+            </div>
+        </form>
+        <div class="modal-close">
+            <img src="assets/img/close.png" alt="close-modal">
+        </div>
+    </div>
+
+    <div class="modal success-popup">
+        <div class="success">
+            <div class="form-title">
+                <span>
+                    Спасибо за вашу заявку
+                </span>
+            </div>
+            <div class="form-description">
+                <span>
+                    Мы свяжемся с вами в течении 15 минут
+                </span>
+            </div>
+            <div class="orange-btn big">
+                <a href="index.html">Вернуться на главную</a>
+            </div>
+        </div>
+        <div class="modal-close">
+            <img src="assets/img/close.png" alt="close-modal">
+        </div>
+    </div>
+
+    <div class="black-sheet">
+        <div class="close-video">✕</div>
+    </div>
+    
+    
+
+
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src='assets/js/video.js'></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>

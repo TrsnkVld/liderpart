@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Circe;
+    src: url(../fonts/Circe/Circe-Thin.ttf);
+    src: url(../fonts/Circe/Circe-Thin.eot) format('embedded-opentype');
+    font-weight: 100
+}
+
+@font-face {
+    font-family: Circe;
+    src: url(../fonts/Circe/Circe-ExtraLight.ttf);
+    src: url(../fonts/Circe/Circe-ExtraLight.eot) format('embedded-opentype'), url(../fonts/Circe/Circe-ExtraLight.woff) format('woff');
+    font-weight: 200
+}
+
+@font-face {
+    font-family: Circe;
+    src: url(../fonts/Circe/Circe-Light.ttf);
+    src: url(../fonts/Circe/Circe-Light.eot) format('embedded-opentype'), url(../fonts/Circe/Circe-Light.woff) format('woff');
+    font-weight: 300
+}
+
+@font-face {
+    font-family: Circe;
+    src: url(../fonts/Circe/Circe-Regular.ttf);
+    src: url(../fonts/Circe/Circe-Regular.eot) format('embedded-opentype'), url(../fonts/Circe/Circe-Regular.woff) format('woff');
+    font-weight: 400
+}
+
+@font-face {
+    font-family: Circe;
+    src: url(../fonts/Circe/Circe-Bold.ttf);
+    src: url(../fonts/Circe/Circe-Bold.eot) format('embedded-opentype'), url(../fonts/Circe/Circe-Bold.woff) format('woff');
+    font-weight: 500
+}
+
+@font-face {
+    font-family: Circe;
+    src: url(../fonts/Circe/Circe-ExtraBold.ttf);
+    src: url(../fonts/Circe/Circe-ExtraBold.eot) format('embedded-opentype'), url(../fonts/Circe/Circe-ExtraBold.woff) format('woff');
+    font-weight: 600
+}
+
+
+
+
+
+@font-face {
+    font-family: Intro;
+    src: url(../fonts/Intro/Intro-Black-Caps.ttf);
+    src: url(../fonts/Intro/Intro-Black-Caps.woff) format('woff');
+    font-weight: 900;
+}
+
+
+
+
+
+@font-face {
+    font-family: HelveticaNeueCyr;
+    src: url(../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.ttf);
+    src: url(../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.eot) format('embedded-opentype'), 
+    url(../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Light.woff) format('woff');
+    font-weight: 300;
+}
+
+
+
+
+
+@font-face {
+    font-family: MuseoSansCyrl;
+    src: url(../fonts/Museo/MuseoSansCyrl700.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: MuseoSansCyrl;
+    src: url(../fonts/Museo/MuseoSansCyrl300.ttf);
+    font-weight: 300;
+}
